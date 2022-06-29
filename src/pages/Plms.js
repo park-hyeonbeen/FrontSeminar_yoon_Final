@@ -18,7 +18,7 @@ function Plms() {
     </>
   }
   else if(mode===1){
-    loginButton=<Button>로그인1515</Button>;
+    loginButton=<Button>로그인</Button>;
     content=<>
       <div style={{display:'flex', flexFlow:'column nowrap', justifyContent:'space-between', width:'70%', height:'20%'}}>
         <Input type="text" id='id' value={id} placeholder='&nbsp;사용자 아이디' onChange={(e)=>setId(e.target.value)}></Input>
