@@ -35,7 +35,7 @@ function Plms() {
   }
   return (
     <div> 
-        <img src='/img/01.jpg' style={{position: 'absolute', top:'0%', left:'0%', width: '100%', height: '100'}} alt=''></img>
+        <img src='../img/01.jpg' style={{position: 'absolute', top:'0%', left:'0%', width: '100%', height: '100'}} alt=''></img>
         <Link to='/'><img src='/img/logo1.jpg' style={{position: 'absolute', top:'5%', left:'43%', width: '13%', height:'7%'}} alt=''/></Link>
         <div style={{position: 'absolute', top: '15%', left: '33%', width: '33%', height:'55%', font: '나눔고딕', display: 'flex', flexFlow: 'column nowrap', justifyContent: 'space-between'}}>
           <div style={{height:'40%',display: 'flex', flexFlow: 'row nowrap', justifyContent: 'space-between', color: 'white'}}>
